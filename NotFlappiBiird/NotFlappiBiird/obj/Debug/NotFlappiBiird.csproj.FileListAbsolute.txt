@@ -1,0 +1,10 @@
+C:\Users\janit\source\repos\NotFlappiBiird\NotFlappiBiird\bin\Debug\NotFlappiBiird.exe.config
+C:\Users\janit\source\repos\NotFlappiBiird\NotFlappiBiird\bin\Debug\NotFlappiBiird.exe
+C:\Users\janit\source\repos\NotFlappiBiird\NotFlappiBiird\bin\Debug\NotFlappiBiird.pdb
+C:\Users\janit\source\repos\NotFlappiBiird\NotFlappiBiird\obj\Debug\NotFlappiBiird.Form1.resources
+C:\Users\janit\source\repos\NotFlappiBiird\NotFlappiBiird\obj\Debug\NotFlappiBiird.Properties.Resources.resources
+C:\Users\janit\source\repos\NotFlappiBiird\NotFlappiBiird\obj\Debug\NotFlappiBiird.csproj.GenerateResource.cache
+C:\Users\janit\source\repos\NotFlappiBiird\NotFlappiBiird\obj\Debug\NotFlappiBiird.csproj.CoreCompileInputs.cache
+C:\Users\janit\source\repos\NotFlappiBiird\NotFlappiBiird\obj\Debug\NotFlappiBiird.exe
+C:\Users\janit\source\repos\NotFlappiBiird\NotFlappiBiird\obj\Debug\NotFlappiBiird.pdb
+C:\Users\janit\source\repos\NotFlappiBiird\NotFlappiBiird\obj\Debug\NotFlappiBiird.csproj.AssemblyReference.cache
