@@ -81,6 +81,17 @@ namespace NotFlappiBiird
             {
                 gravity = -15;
             }
+            else if (e.KeyCode == Keys.Enter) //ENTER piilottaa nykyisen ikkunan ja luo uuden.
+            {
+                Form1 uusiPeli = new Form1();
+                this.Hide();
+                uusiPeli.Show();
+            }
+            else if (e.KeyCode == Keys.Escape) //ESC sulkee ohjelman kokonaan, myös piilotetut ikkunat
+            {
+                Application.Exit();
+            }
+
         }
 
         private void gamerkeyisup(object sender, KeyEventArgs e)
@@ -95,7 +106,9 @@ namespace NotFlappiBiird
         private void endGame()
         {
             gamertimer.Stop();
-            scoretext.Text += "   Hävisit";
+            scoretext.Text += " Hävisit. Paina ENTER aloittaaksesi uudestaan.";
         }
+
     }
 }
+

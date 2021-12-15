@@ -106,7 +106,9 @@ namespace NotFlappiBiird
             this.Controls.Add(this.Ground);
             this.Controls.Add(this.PipeBottom);
             this.Controls.Add(this.PipeTop);
+            this.MaximumSize = new System.Drawing.Size(662, 760);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.gamerkeyisdown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.gamerkeyisup);
