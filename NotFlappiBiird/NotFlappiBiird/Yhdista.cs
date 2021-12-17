@@ -12,10 +12,10 @@ namespace NotFlappiBiird
     {
         public string yhteysLause()
         {
-            return "datasource=localhost; port=3306; username=root; password=1234; database=käyttäjät";
+            return "datasource=localhost; port=3306; username=root; password=1234; database=kayttajat";
         }
 
-        private MySqlConnection yhteys = new MySqlConnection("datasource=localhost; port=3306; username=root; password=1234; database=käyttäjät"); //Luodaan yhteys
+        private MySqlConnection yhteys = new MySqlConnection("datasource=localhost; port=3306; username=root; password=1234; database=kayttajat;"); //Luodaan yhteys
 
         public MySqlConnection otaYhteys()
         {
