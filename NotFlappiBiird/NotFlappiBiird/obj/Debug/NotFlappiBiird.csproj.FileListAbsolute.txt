@@ -32,3 +32,5 @@ C:\Users\Joel\Source\Repos\FlappiLintu\NotFlappiBiird\NotFlappiBiird\bin\Debug\K
 C:\Users\Joel\Source\Repos\FlappiLintu\NotFlappiBiird\NotFlappiBiird\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\Joel\Source\Repos\FlappiLintu\NotFlappiBiird\NotFlappiBiird\bin\Debug\MySql.Data.xml
 C:\Users\Joel\Source\Repos\FlappiLintu\NotFlappiBiird\NotFlappiBiird\obj\Debug\NotFlappiBiird.csproj.CopyComplete
+C:\Users\Joel\source\repos\FlappiLintu\NotFlappiBiird\NotFlappiBiird\obj\Debug\NotFlappiBiird.kirjautumisForm.resources
+C:\Users\Joel\source\repos\FlappiLintu\NotFlappiBiird\NotFlappiBiird\bin\Debug\eCryptography.dll

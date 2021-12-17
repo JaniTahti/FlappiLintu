@@ -110,6 +110,7 @@ namespace NotFlappiBiird
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.gamerkeyisdown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.gamerkeyisup);
             ((System.ComponentModel.ISupportInitialize)(this.PipeTop)).EndInit();

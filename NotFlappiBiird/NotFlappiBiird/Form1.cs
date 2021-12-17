@@ -109,6 +109,12 @@ namespace NotFlappiBiird
             scoretext.Text += " Hävisit. Paina ENTER aloittaaksesi uudestaan.";
         }
 
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            this.Hide();
+            kirjautumisForm kirjautuminen = new kirjautumisForm();
+            kirjautuminen.Show();
+        }
     }
 }
 

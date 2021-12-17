@@ -15,14 +15,14 @@ namespace NotFlappiBiird
             return "datasource=localhost; port=3306; username=root; password=1234; database=käyttäjät";
         }
 
-        private MySqlConnection yhteys = new MySqlConnection("datasource=localhost; port=3306; username=root; password=1234; database=tiedot");
+        private MySqlConnection yhteys = new MySqlConnection("datasource=localhost; port=3306; username=root; password=1234; database=käyttäjät"); //Luodaan yhteys
 
         public MySqlConnection otaYhteys()
         {
             return yhteys;
         }
 
-        public void avaaYhteys()
+        public void avaaYhteys() //Avataan yhteys
         {
             if (yhteys.State == ConnectionState.Closed)
             {
@@ -30,7 +30,7 @@ namespace NotFlappiBiird
             }
         }
 
-        public void suljeYhteys()
+        public void suljeYhteys() //Suljetaan yhteys
         {
             if (yhteys.State == ConnectionState.Open)
             {
